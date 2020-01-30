@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:scrollbarAlwaysDrawVerticalTrack="true" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toTopOf="@+id/navigation" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linlay1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/intrams"/>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ivUpcusc" android:layout_width="100sp" android:layout_height="100sp" android:layout_marginRight="10dp"/>
+                <ImageView android:id="@+id/ivUP" android:layout_width="100sp" android:layout_height="100sp" android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linlay2" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/copresentors"/>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ivFoodpanda" android:layout_width="150sp" android:layout_height="100sp"/>
+                <ImageView android:id="@+id/ivSelecta" android:layout_width="130sp" android:layout_height="100sp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/ivVirginia" android:layout_width="130sp" android:layout_height="100sp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/linlay3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/gold"/>
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/ivSenoritas" android:layout_width="150sp" android:layout_height="100sp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/silver"/>
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/ivBodysole" android:layout_width="150sp" android:layout_height="100sp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.design.widget.BottomNavigationView android:id="@+id/navigation" android:background="?android:attr/windowBackground" android:layout_width="0dp" android:layout_height="wrap_content" app:itemIconTint="@android:color/black" app:itemTextColor="@android:color/black" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@+id/lvExp" app:menu="@menu/navigation"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_results" android:id="@+id/navigation_results" android:title="@string/results"/>
+    <item android:icon="@drawable/ic_calendar" android:id="@+id/navigation_schedule" android:title="@string/schedule"/>
+    <item android:icon="@drawable/ic_football" android:id="@+id/navigation_events" android:title="@string/events"/>
+    <item android:icon="@drawable/ic_sponsors" android:id="@+id/navigation_sponsors" android:title="@string/sponsors"/>
+</menu>

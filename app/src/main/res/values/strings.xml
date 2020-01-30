@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UPC Intrams</string>
+    <string name="copresentors">Co-Presentors</string>
+    <string name="dash">-</string>
+    <string name="events">Events</string>
+    <string name="first">First</string>
+    <string name="fourth">Fourth</string>
+    <string name="gold">Gold Sponsors</string>
+    <string name="intrams">UP Cebu Intramurals is brought to you by</string>
+    <string name="losses">Losses</string>
+    <string name="mar20">March 20</string>
+    <string name="mar21">March 21</string>
+    <string name="results">Results</string>
+    <string name="schedule">Schedule</string>
+    <string name="second">Second</string>
+    <string name="silver">Silver Sponsors</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="third">Third</string>
+    <string name="wins">Wins</string>
+</resources>
